@@ -17,6 +17,7 @@ authors = [
 
 [project.optional-dependencies]
 testing = [
+    "flake8",
     "pre-commit",
     "pytest",
 ]
