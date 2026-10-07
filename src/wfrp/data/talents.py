@@ -123,10 +123,10 @@ TALENT_DATA = {
             " creating an opening for an attack. Upon a successful Melee Attack, you"
             " may choose to forgo inflicting any Damage. If you do so, your opponent"
             " may not Oppose further Melee Tests with any Melee Skill until the end of"
-            " their next Turn, and Melee Attacks made against them gain the benefit of"
-            " Advantage. They may continue to oppose attacks with the Dodge Skill. This"
-            " Talent is of no use if your opponent has a larger Size than you (see page"
-            " 360)."
+            " your next Turn, and Melee Attacks made against them gain the benefit of"
+            " Advantage until the end of your next turn. They may continue to oppose"
+            " attacks with the Dodge Skill. This Talent is of no use if your opponent"
+            " has a larger Size than you (see page 360)."
         ),
     },
     "Beneath Notice": {
@@ -398,22 +398,23 @@ TALENT_DATA = {
     "Disarm": {
         "description": (
             "You are able to disarm an opponent with a careful flick of the wrist or a"
-            " well-aimed blow to the hand. Upon a successful melee strike as the"
-            " attacker, you may choose to sacrifice the Damage. If you do so, your"
-            " opponent loses a held weapon, which flies 1d10 feet in a random"
-            " direction. If you wish, you may lose Momentum to pluck the weapon from"
-            " the air with a flourish. This Talent is of no use if your opponent fights"
-            " unarmed, is securely attached to their weapon, or has a larger Size than"
-            " you (see page 360)."
+            " well-aimed blow to the hand. Upon a melee strike as the attacker,"
+            " provided you score +4 SL or more, you may choose to sacrifice the Damage."
+            " If you do so, your opponent loses a held weapon, which flies 1d10 feet in"
+            " a random direction. If you wish, you may lose Momentum to pluck the"
+            " weapon from the air with a flourish. This Talent is of no use if your"
+            " opponent fights unarmed, is securely attached to their weapon, or has a"
+            " larger Size than you (see page 360)."
         ),
     },
     "Distract": {
         "description": (
             "You are trained in simple movements to distract or startle your opponent,"
-            " drawing eyes from your true intent. Upon a successful Melee Attack, you"
-            " may choose to sacrifice the Damage. If you do so, your opponent loses"
-            " Momentum and cannot regain it, or make any Test with Advantage for any"
-            " other reason, until the end of your next Turn."
+            " drawing eyes from your true intent. You can use your Move to make an"
+            " Opposed Athletics, Perform, or Sleight of Hand/Perception Test against a"
+            " target within 2 yards. If you win, your opponent loses Momentum and"
+            " cannot regain it, or make any Test with Advantage for any other reason,"
+            " until the end of your next Turn."
         ),
     },
     "Doomed": {
@@ -513,9 +514,9 @@ TALENT_DATA = {
     "Feint": {
         "description": (
             "You have trained how to make false attacks in close combat to fool your"
-            " opponent. When attacking in melee, if you have Advantage and your"
-            " opponent does not, you can force them to defend with Intuition instead of"
-            " any other Skill or Characteristic."
+            " opponent. When attacking in melee, if you have Momentum and your opponent"
+            " does not, you can force them to defend with Intuition instead of any"
+            " other Skill or Characteristic."
         ),
     },
     "Field Dressing": {
@@ -668,12 +669,13 @@ TALENT_DATA = {
     "In-fighter": {
         "description": (
             "You are skilled at drawing in close to an opponent and making better use"
-            " of a shorter weapon. As your Action, you can perform an Opposed Melee"
-            " Test to attempt to step inside your opponent’s weapon length. The winner"
-            " chooses if combat continues as normal or as ‘in-fighting’. During"
-            " in-fighting, any weapon longer than Short counts as an Improvised Weapon."
-            " At the start of their Turn, an opponent may choose to lose Momentum in"
-            " order to end in-fighting."
+            " of a shorter weapon. Opponents receive no bonus for defending against you"
+            " with a longer weapon (see page 300). As your Action, you can perform an"
+            " Opposed Melee Test to attempt to step inside your opponent’s weapon"
+            " length. The winner chooses if combat continues as normal or as"
+            " ‘in-fighting’. During in-fighting, any weapon longer than Short counts as"
+            " an Improvised Weapon. At the start of their Turn, an opponent may choose"
+            " to lose Momentum in order to end in-fighting."
         ),
     },
     "Inspiring": {
@@ -936,8 +938,8 @@ TALENT_DATA = {
             (
                 "You have the spark to cast magic within you and have mastered"
                 " techniques to control it at a basic level. Upon learning the Talent,"
-                " you manifest a number of Spells equal to your Willpower Bonus. You"
-                " can learn additional Petty Magic Spells for the following cost in XP."
+                " you manifest three Petty Magic Spells of your choice. You can learn"
+                " additional Petty Magic Spells for the following cost in XP."
             ),
             (
                 "Full rules for learning new Spells are provided in Chapter 8: Magic."
@@ -1178,8 +1180,9 @@ TALENT_DATA = {
             "You are skilled at using your shield to control the flow of battle. Once"
             " per Round, while carrying a shield, you may lose Momentum to either grant"
             " your shield’s AP bonus to an adjacent ally who is not carrying a shield,"
-            " or, if you win an Opposed Melee Test while attacking or defending, push"
-            " your opponent up to 2 yards directly away and no longer count as Engaged."
+            " or, if you win an Opposed Melee Test while attacking or defending, you"
+            " may forgo damage to push your opponent up to 2 yards directly away and no"
+            " longer count as Engaged."
         ),
     },
     "Sixth Sense": {
@@ -1193,16 +1196,9 @@ TALENT_DATA = {
     },
     "Slayer": {
         "description": (
-            "You are undaunted by large enemies and attack them with great gusto. If"
-            " you Charge a creature whose Size is larger than you, you automatically"
-            " gain Momentum."
-        ),
-    },
-    "Small": {
-        "description": (
-            "You are much shorter than most folk in the Old World. Gain Size (Small)."
-            " The full rules for different Sizes are found in Chapter 12: Bestiary on"
-            " page 360."
+            "You are undaunted by large enemies and fight them with great gusto. If you"
+            " are Charged by a creature whose Size is larger than you, you"
+            " automatically gain Momentum."
         ),
     },
     "Sniper": {
@@ -1439,10 +1435,10 @@ TALENT_DATA = {
     },
     "War Wizard": {
         "description": (
-            "You are trained to cast magic while in the thick of combat. On your Turn,"
-            " you may cast one Spell with a Casting Number of 5 or less for free"
-            " without using your Action. If you do this, you may not cast another Spell"
-            " this Turn."
+            "You are trained to cast magic while in the thick of combat. As a Free"
+            " Action, you may lose Momentum to attempt to cast one Spell with a Casting"
+            " Number of 5 or less. If you do this, you may not perform any other Test"
+            " related to spellcasting this Turn, including Channelling Tests."
         ),
     },
     "Waterman": {
@@ -1481,9 +1477,10 @@ TALENT_DATA = {
                 "You have learned magic through trial and error. Gain one Spell of your"
                 " choice from any Colour Lore or the Lore of Witchcraft, even if you"
                 " lack the appropriate Arcane Magic Talent. Further, treat that Spell’s"
-                " Channelling Skill as a Basic Skill. You can memorise an additional"
-                " such Spell (and treat its Channelling Skill as Basic) for 150 XP;"
-                " further Spells cost 50 XP more each time."
+                " Channelling Skill and Language (Magick) Skill as a Basic Skills. You"
+                " can memorise an additional such Spell, and treat its Channelling and"
+                " Language (Magick) Skills as Basic, for 200 XP; further Spells cost"
+                " 100 XP more each time."
             ),
             (
                 "Possession of this Talent may attract the attention of witch hunters,"

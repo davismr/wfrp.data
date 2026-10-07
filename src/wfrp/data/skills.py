@@ -163,7 +163,6 @@ BASIC_SKILL_DATA = {
             "Cavalry",
             "Fencing",
             "Flail",
-            "Parry",
             "Polearm",
             "Two-handed",
         ],
