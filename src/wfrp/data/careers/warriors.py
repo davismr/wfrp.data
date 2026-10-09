@@ -1,0 +1,283 @@
+from wfrp.data.constants import Attributes
+
+WARRIORS_CLASS = {
+    "Cavalryman": {
+        "income": "Ride (Horse)",
+        "": {
+            "status": {"tier": "Silver", "standing": 3},
+            "attributes": [Attributes.WS, Attributes.BS, Attributes.Ag],
+            "skills": [
+                "Animal Care",
+                "Charm Animal",
+                "Consume Alcohol",
+                "Cool",
+                "Language (Battle)",
+                "Melee (Cavalry)",
+                "Outdoor Survival",
+                "Perception",
+                "Ranged (Blackpowder or Bow)",
+                "Ride (Horse)",
+            ],
+            "talents": [
+                "Combat Aware",
+                "Dual Wielder",
+                "Lightning Reflexes",
+                "Roughrider",
+            ],
+            "trappings": [
+                "Bow with 10 Arrows or Pistol with 10 Shots",
+                "Leather Jack",
+                "Light Warhorse",
+            ],
+        },
+        "Cavalryman": {
+            "status": {"tier": "Silver", "standing": 4},
+            "attributes": [Attributes.S],
+            "skills": [
+                "Charm",
+                "Endurance",
+                "Gamble",
+                "Gossip",
+                "Melee (Basic)",
+                "Play (Horn)",
+            ],
+            "talents": [
+                "Etiquette (Soldiers)",
+                "Gunner",
+                "Seasoned Traveller",
+                "Trick Rider",
+            ],
+            "trappings": [
+                "Breastplate",
+                "Open Helm",
+            ],
+        },
+        "Cavalry Sergeant ": {
+            "status": {"tier": "Gold", "standing": 1},
+            "attributes": [Attributes.I],
+            "skills": [
+                "Intimidate",
+                "Leadership",
+                "Lore (Warfare)",
+                "Ranged (Engineering)",
+            ],
+            "talents": [
+                "Combat Reflexes",
+                "Fast Shot",
+                "Hatred (Any One)",
+                "War Leader",
+            ],
+            "trappings": [
+                "Sash",
+            ],
+        },
+        "Cavalry Officer": {
+            "status": {"tier": "Gold", "standing": 2},
+            "attributes": [Attributes.Fel],
+            "skills": [
+                "Intuition",
+                "Lore (Heraldry)",
+            ],
+            "talents": [
+                "Accurate Shot",
+                "Inspiring",
+                "Read/Write",
+                "Robust",
+            ],
+            "trappings": [
+                "Deck of Cards",
+                "Quality Clothing",
+            ],
+        },
+    },
+    "Guard": {
+        "income": "Perception",
+        "Sentry": {
+            "status": {"tier": "Brass", "standing": 5},
+            "attributes": [Attributes.WS, Attributes.S, Attributes.I],
+            "skills": [
+                "Consume Alcohol",
+                "Cool",
+                "Entertain (Storytelling)",
+                "Gamble",
+                "Gossip",
+                "Intimidate",
+                "Intuition",
+                "Melee (Basic)",
+                "Melee (Brawling)",
+                "Perception",
+            ],
+            "talents": [
+                "Dicer",
+                "Etiquette (Servants)",
+                "Robust",
+                "Strike to Stun",
+            ],
+            "trappings": [
+                "Buckler",
+                "Leather Jerkin",
+                "Storm Lantern with Oil",
+            ],
+        },
+        "Guard": {
+            "status": {"tier": "Silver", "standing": 2},
+            "attributes": [Attributes.T],
+            "skills": [
+                "Athletics",
+                "Dodge",
+                "Endurance",
+                "Heal",
+                "Melee (Polearm)",
+                "Ranged (Bow)",
+            ],
+            "talents": [
+                "Drilled",
+                "Reversal",
+                "Shieldsman",
+                "Stout-hearted",
+            ],
+            "trappings": [
+                "Bow with 10 Arrows",
+                "Sleeved Mail Shirt",
+                "Shield",
+                "Spear",
+            ],
+        },
+        "Honour Guard": {
+            "status": {"tier": "Silver", "standing": 4},
+            "attributes": [Attributes.WP],
+            "skills": [
+                "Language (Battle)",
+                "Lore (Heraldry)",
+                "Melee (Two-handed)",
+                "Ride (Horse)",
+            ],
+            "talents": [
+                "Etiquette (Any One)",
+                "Fearless (Intruders)",
+                "Reaction Strike",
+                "Unshakeable",
+            ],
+            "trappings": [
+                "Great Weapon or Halberd",
+                "Helmet",
+                "Uniform",
+            ],
+        },
+        "Guard Officer": {
+            "status": {"tier": "Gold", "standing": 1},
+            "attributes": [Attributes.Ag],
+            "skills": [
+                "Leadership",
+                "Lore (Warfare)",
+            ],
+            "talents": [
+                "Combat Master",
+                "Furious Assault",
+                "Iron Will",
+                "Nose for Trouble",
+            ],
+            "trappings": [
+                "Breastplate",
+                "Squad of Guards",
+            ],
+        },
+    },
+    "Knight": {
+        "income": "Melee (Cavalry)",
+        "Squire": {
+            "status": {"tier": "Silver", "standing": 3},
+            "attributes": [Attributes.WS, Attributes.S, Attributes.Ag],
+            "skills": [
+                "Animal Care",
+                "Athletics",
+                "Charm Animal",
+                "Cool",
+                "Heal",
+                "Lore (Heraldry)",
+                "Melee (Basic)",
+                "Melee (Cavalry)",
+                "Ride (Horse)",
+                "Trade (Farrier)",
+            ],
+            "talents": [
+                "Etiquette (Nobles, or Soldiers)",
+                "Noble Blood",
+                "Strike Mighty Blow",
+                "Warrior Born",
+            ],
+            "trappings": [
+                "Leather Jack",
+                "Mail Shirt",
+                "Riding Horse",
+                "Shield",
+                "Trade Tools (Farrier)",
+            ],
+        },
+        "Knight": {
+            "status": {"tier": "Silver", "standing": 5},
+            "attributes": [Attributes.T],
+            "skills": [
+                "Dodge",
+                "Endurance",
+                "Intimidate",
+                "Language (Battle)",
+                "Melee (Any One)",
+                "Play (Horn)",
+            ],
+            "talents": [
+                "Coolheaded",
+                "Roughrider",
+                "Seasoned Traveller",
+                "Sturdy",
+            ],
+            "trappings": [
+                "Destrier",
+                "Melee Weapon (Any)",
+                "Lance",
+                "Plate",
+                "Armour",
+                "Sword",
+            ],
+        },
+        "First Knight": {
+            "status": {"tier": "Gold", "standing": 2},
+            "attributes": [Attributes.WP],
+            "skills": [
+                "Charm",
+                "Leadership",
+                "Lore (Warfare)",
+                "Ranged (Blackpowder)",
+            ],
+            "talents": [
+                "Fearless (Any One)",
+                "Stout-hearted",
+                "Unshakeable",
+                "War Leader",
+            ],
+            "trappings": [
+                "Barding",
+                "Small Unit of Knights",
+            ],
+        },
+        "Knight of the Inner Circle": {
+            "status": {"tier": "Gold", "standing": 4},
+            "attributes": [Attributes.Fel],
+            "skills": [
+                "Lore (Any One)",
+                "Secret Signs (Knightly Order)",
+            ],
+            "talents": [
+                "Inspiring",
+                "Iron Will",
+                "Read/Write",
+                "Strike to Injure",
+            ],
+            "trappings": [
+                "Large Unit of Knights or Several Small Units of Knights",
+                "Plumed Great Helm",
+                "Squire",
+            ],
+        },
+    },
+}
