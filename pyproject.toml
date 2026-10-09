@@ -21,7 +21,6 @@ testing = [
     "pre-commit",
     "pytest",
     "pytest-cov",
-    "wfrp.character@git+https://github.com/davismr/wfrp.character#egg=main",
 ]
 
 [project.urls]
