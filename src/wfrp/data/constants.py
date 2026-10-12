@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class Attributes(Enum):
+class Characteristics(Enum):
     WS = "Weapon Skill"
     BS = "Ballistic Skill"
     S = "Strength"
