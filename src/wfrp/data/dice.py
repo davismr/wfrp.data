@@ -13,6 +13,10 @@ def roll_3d10(modifier=0):
     return roll_d10() + roll_d10() + roll_d10() + modifier
 
 
+def roll_4d10(modifier=0):
+    return roll_d10() + roll_d10() + roll_d10() + roll_d10() + modifier
+
+
 def roll_5d10(modifier=0):
     return roll_2d10() + roll_3d10() + modifier
 

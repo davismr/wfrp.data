@@ -1,3 +1,6 @@
+from wfrp.data.careers.data import CAREER_DATA
+
+
 def get_career_list(species):
     if species == "Human":
         career_list = HUMAN_CAREERS
@@ -21,6 +24,12 @@ def get_career(species, die_roll):
             return career_list[die_roll]
         except KeyError:
             die_roll += 1
+
+
+def list_careers(species=None):
+    if species is None:
+        return list(CAREER_DATA.keys())
+    return list(get_career_list(species).values())
 
 
 HUMAN_CAREERS = {
