@@ -1,12 +1,12 @@
 def get_random_talent(die_roll):
     while True:
         try:
-            return TALENT_LIST[die_roll]
+            return RANDOM_TALENTS[die_roll]
         except KeyError:
             die_roll += 1
 
 
-TALENT_LIST = {
+RANDOM_TALENTS = {
     2: "Acute Sense (Sight)",
     5: "Ambidextrous",
     7: "Artistic",

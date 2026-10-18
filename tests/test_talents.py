@@ -1,5 +1,5 @@
 from wfrp.data.careers.data import CAREER_DATA
-from wfrp.data.tables.talents import TALENT_LIST
+from wfrp.data.tables.talents import RANDOM_TALENTS
 from wfrp.data.tables.talents import get_random_talent
 from wfrp.data.talents import TALENT_DATA
 
@@ -23,7 +23,7 @@ def test_talent_descriptions():
 
 
 def test_random_talents():
-    for talent in TALENT_LIST.values():
+    for talent in RANDOM_TALENTS.values():
         assert talent.split(" (")[0] in TALENT_DATA
 
 
