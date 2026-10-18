@@ -5,7 +5,7 @@ from wfrp.data.skills import SKILL_DATA
 
 def test_skill_characteristics():
     for skill in SKILL_DATA:
-        assert SKILL_DATA[skill]["characteristic"] in Characteristics._member_map_
+        assert SKILL_DATA[skill]["characteristic"] in Characteristics
 
 
 def test_skill():

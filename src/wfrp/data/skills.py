@@ -1,6 +1,8 @@
+from wfrp.data.constants import Characteristics
+
 BASIC_SKILL_DATA = {
     "Art": {
-        "characteristic": "Dex",
+        "characteristic": Characteristics.Dex,
         "specialisations": [
             "Drawing",
             "Engraving",
@@ -18,14 +20,14 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Athletics": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "description": (
             "Your ability to run, jump, move or perform any other general physical"
             " activity."
         ),
     },
     "Bribery": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "description": (
             "Find someone who is willing to accept a bribe, such as a guild notary to"
             " accept forged paperwork or a gate guard to look the other way while you"
@@ -35,7 +37,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Charm": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "description": (
             "Makes people think favourably of you, your opinions, and actions you"
             " propose. People won’t necessarily do what you say simply because you’ve"
@@ -43,7 +45,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Charm Animal": {
-        "characteristic": "WP",
+        "characteristic": Characteristics.WP,
         "description": (
             "Your aptitude for befriending, quickly calming, or subjugating animals. A"
             " Charm Animal Test can convince a wild animal to back off, or a guard dog"
@@ -51,7 +53,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Climb": {
-        "characteristic": "S",
+        "characteristic": Characteristics.S,
         "description": (
             "The ability to ascend steep or vertical surfaces, like a perilous"
             " mountainside or the rain-slick wall of a tumbledown townhouse. Climbing"
@@ -60,7 +62,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Consume Alcohol": {
-        "characteristic": "T",
+        "characteristic": Characteristics.T,
         "description": (
             "How well you can handle alcohol without letting it cloud your judgment or"
             " render you senseless. Often used to impress those who find the ability to"
@@ -68,7 +70,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Cool": {
-        "characteristic": "WP",
+        "characteristic": Characteristics.WP,
         "description": (
             "Allows you to remain calm under stress, resist fear in the face of horror,"
             " and stick to your convictions. It is generally used to resist the"
@@ -77,7 +79,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Dodge": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "description": (
             "Avoid things through ducking, diving, and moving quickly, and is used"
             " extensively to sidestep falling rocks, incoming weapons, and the like. In"
@@ -85,7 +87,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Drive": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "description": (
             "Maneuvering vehicles — most commonly simple carts and lumbering coaches,"
             " but also the more experimental creations of Imperial Engineers — along"
@@ -93,7 +95,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Endurance": {
-        "characteristic": "T",
+        "characteristic": Characteristics.T,
         "description": (
             "Called upon when you must endure hardship, withstand deprivation, stand"
             " without moving for long periods of time, or survive harsh environments."
@@ -103,7 +105,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Entertain": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "specialisations": ["Acting", "Comedy", "Singing", "Storytelling"],
         "description": (
             "Delight crowds with the spoken word, perhaps by singing, acting, or"
@@ -111,7 +113,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Gamble": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "description": (
             "Measure the likelihood that a bet will pay off, as well as successfully"
             " engage in various games of chance. If you wish to improve your chances"
@@ -119,35 +121,35 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Gossip": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "description": (
             "Ferret out interesting and useful news, and spread rumours of your own."
             " Best practised at a town square, inn, well, or other gathering place."
         ),
     },
     "Haggle": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "description": (
             "Secure better deals when negotiating with others, when purchasing goods"
             " for example. Typically involves an Opposed Haggle Test (page 131)."
         ),
     },
     "Intimidate": {
-        "characteristic": "S",
+        "characteristic": Characteristics.S,
         "description": (
             "Coerce or frighten sentient creatures — generally with an overt threat,"
             " though sometimes a subtle implication or even a look is enough."
         ),
     },
     "Intuition": {
-        "characteristic": "I",
+        "characteristic": Characteristics.I,
         "description": (
             "Gives you a feel for your surroundings, to notice when something is wrong,"
             " and read people to sense when they are lying or hiding something."
         ),
     },
     "Leadership": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "description": (
             "Your ability to lead others and command respect. While most often"
             " associated with martial situations, a resolute leader can quickly direct"
@@ -156,7 +158,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Melee": {
-        "characteristic": "WS",
+        "characteristic": Characteristics.WS,
         "specialisations": [
             "Basic",
             "Brawling",
@@ -175,14 +177,14 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Navigation": {
-        "characteristic": "I",
+        "characteristic": Characteristics.I,
         "description": (
             "Allows you to find your way in the wilderness, or across the ocean, using"
             " landmarks, stellar bodies, charts, or maps."
         ),
     },
     "Outdoor Survival": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "description": (
             "Used to survive in the wild, including the ability to fish, hunt, forage,"
             " and build fires and shelters. Experienced survivors are practiced at"
@@ -191,7 +193,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Perception": {
-        "characteristic": "I",
+        "characteristic": Characteristics.I,
         "description": (
             "Your ability to notice things with your senses — sight, smell, hearing,"
             " touch, taste, and any other senses you may possess, such as magical or"
@@ -199,7 +201,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Ride": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "specialisations": ["Demigryph", "Griffon", "Horse", "Pegasus"],
         "description": (
             "Proficiency at riding a particular group of animals; Ride (Horse), for"
@@ -208,7 +210,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Row": {
-        "characteristic": "S",
+        "characteristic": Characteristics.S,
         "description": (
             "Your prowess at pulling an oar to move a boat through the water. A Row"
             " Test is typically only needed when racing, navigating rapids, desperately"
@@ -216,7 +218,7 @@ BASIC_SKILL_DATA = {
         ),
     },
     "Stealth": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "specialisations": ["Rural", "Underground", "Urban"],
         "description": (
             "Move and hide without being detected, blend into a crowd, or otherwise"
@@ -227,7 +229,7 @@ BASIC_SKILL_DATA = {
 
 ADVANCED_SKILL_DATA = {
     "Animal Care": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "description": (
             "Care for animals and heal them from disease or injury. A Character with an"
             " Advance in this Skill can keep animals healthy under normal conditions"
@@ -237,7 +239,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Animal Training": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "specialisations": ["Demigryph", "Dog", "Hawk", "Horse", "Pigeon"],
         "description": (
             "Your understanding of a particular type of animal, and ability to train"
@@ -246,7 +248,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Channelling": {
-        "characteristic": "WP",
+        "characteristic": Characteristics.WP,
         "specialisations": [
             "Aqshy",
             "Azyr",
@@ -265,7 +267,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Evaluate": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "description": (
             "Lets you determine the value of goods. Everybody is assumed to know the"
             " relative worth of general items, but Evaluate allows you to identify the"
@@ -273,7 +275,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Heal": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "description": (
             "You have been trained to deal with injuries and diseases. A successful"
             " Heal Test allows you to diagnose illness, treat a disease, heal wounds or"
@@ -282,7 +284,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Language": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "specialisations": ["Bretonnian", "Reikspiel", "Wastelander"],
         "description": (
             "Access to extra languages beyond your native tongue. A single Advance is"
@@ -292,7 +294,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Lore": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "specialisations": [
             "Engineering",
             "Geology",
@@ -312,7 +314,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Perform": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "specialisations": [
             "Acrobatics",
             "Clowning",
@@ -329,7 +331,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Pick Lock": {
-        "characteristic": "Dex",
+        "characteristic": Characteristics.Dex,
         "description": (
             "You know the mechanisms of locks and how to open them without their proper"
             " keys. Many locks are simple affairs made to vex only untutored thieves,"
@@ -338,7 +340,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Play": {
-        "characteristic": "Dex",
+        "characteristic": Characteristics.Dex,
         "specialisations": ["Bagpipe", "Lute", "Harpsichord", "Horn", "Violin"],
         "description": (
             "Make music with an instrument, hopefully well enough to impress others. A"
@@ -346,7 +348,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Pray": {
-        "characteristic": "Fel",
+        "characteristic": Characteristics.Fel,
         "description": (
             "Invoke, appeal to, or otherwise commune with a deity. For more information"
             " on using the Pray Skill to seek divine intervention, see Chapter 7:"
@@ -354,7 +356,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Ranged": {
-        "characteristic": "BS",
+        "characteristic": Characteristics.BS,
         "specialisations": [
             "Blackpowder",
             "Bow",
@@ -374,7 +376,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Research": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "description": (
             "Finding useful and frequently obscure knowledge in libraries and other"
             " such storehouses of information. Research requires you to have the"
@@ -383,7 +385,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Sail": {
-        "characteristic": "Ag",
+        "characteristic": Characteristics.Ag,
         "description": (
             "Operate and manoeuvre a sailing vessel — including knotwork, steering,"
             " gauging the wind, and more. Sail is required to operate your own vessel,"
@@ -392,7 +394,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Secret Signs": {
-        "characteristic": "Int",
+        "characteristic": Characteristics.Int,
         "specialisations": [
             "Grey Order",
             "Guild (Any One)",
@@ -410,7 +412,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Set Trap": {
-        "characteristic": "Dex",
+        "characteristic": Characteristics.Dex,
         "description": (
             "From a simple snare or bear trap, to more spectacular devices like Von"
             " Grizzel’s Thief-render, players are unlikely to venture far in the Old"
@@ -419,7 +421,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Sleight of Hand": {
-        "characteristic": "Dex",
+        "characteristic": Characteristics.Dex,
         "description": (
             "Your ability to pick pockets, palm objects, and perform minor tricks of"
             " prestidigitation, as well as cheat at games of chance. This Skill is"
@@ -427,7 +429,7 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Swim": {
-        "characteristic": "S",
+        "characteristic": Characteristics.S,
         "description": (
             "Moving and staying afloat in water. If you have the Swim Skill, you are"
             " automatically presumed to be able to swim freely without a Test. But if"
@@ -436,14 +438,14 @@ ADVANCED_SKILL_DATA = {
         ),
     },
     "Track": {
-        "characteristic": "I",
+        "characteristic": Characteristics.I,
         "description": (
             "Your ability to follow subtle trails left by others. Track is used to"
             " follow and find your target, as well as to hide your trail."
         ),
     },
     "Trade": {
-        "characteristic": "Dex",
+        "characteristic": Characteristics.Dex,
         "specialisations": [
             "Apothecary",
             "Calligrapher",
