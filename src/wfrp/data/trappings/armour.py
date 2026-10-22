@@ -23,7 +23,7 @@ SHIELD_DATA = {
 }
 
 for armour in SHIELD_DATA:
-    armour["Group"] = "Shield"
+    SHIELD_DATA[armour]["Group"] = "Shield"
 
 LEATHER_DATA = {
     "Leather Coif": {
@@ -58,7 +58,7 @@ LEATHER_DATA = {
 }
 
 for armour in LEATHER_DATA:
-    armour["Group"] = "Leather"
+    LEATHER_DATA[armour]["Group"] = "Leather"
 
 MAIL_DATA = {
     "Mail Chausses": {
@@ -96,7 +96,7 @@ MAIL_DATA = {
 }
 
 for armour in MAIL_DATA:
-    armour["Group"] = "Mail"
+    MAIL_DATA[armour]["Group"] = "Mail"
 
 PLATE_DATA = {
     "Bracers": {
@@ -143,6 +143,6 @@ PLATE_DATA = {
 }
 
 for armour in PLATE_DATA:
-    armour["Group"] = "Plate"
+    PLATE_DATA[armour]["Group"] = "Plate"
 
 ARMOUR_DATA = SHIELD_DATA | LEATHER_DATA | MAIL_DATA | PLATE_DATA

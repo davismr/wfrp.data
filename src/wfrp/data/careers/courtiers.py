@@ -409,7 +409,7 @@ COURTIERS_CLASS = {
                 "Courtly Garb",
                 "Foil or Hand Mirror",
                 "Velvet Cloak",
-                f"Jewellery worth {roll_3d10} GC",
+                f"Jewellery worth {roll_3d10()} GC",
                 "Personal Servant",
             ],
         },

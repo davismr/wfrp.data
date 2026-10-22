@@ -43,7 +43,7 @@ BASIC_DATA = {
 }
 
 for weapon in BASIC_DATA:
-    weapon["Group"] = "Basic"
+    BASIC_DATA[weapon]["Group"] = "Basic"
 
 BRAWLING_DATA = {
     "Garrote": {
@@ -71,7 +71,7 @@ BRAWLING_DATA = {
 }
 
 for weapon in BRAWLING_DATA:
-    weapon["Group"] = "Brawling"
+    BRAWLING_DATA[weapon]["Group"] = "Brawling"
 
 CAVALRY_DATA = {
     "Cavalry Hammer": {
@@ -94,7 +94,7 @@ CAVALRY_DATA = {
 }
 
 for weapon in CAVALRY_DATA:
-    weapon["Group"] = "Cavalry"
+    CAVALRY_DATA[weapon]["Group"] = "Cavalry"
 
 FENCING_DATA = {
     "Buckler": {
@@ -140,7 +140,7 @@ FENCING_DATA = {
 }
 
 for weapon in FENCING_DATA:
-    weapon["Group"] = "Fencing"
+    FENCING_DATA[weapon]["Group"] = "Fencing"
 
 FLAIL_DATA = {
     "Flail": {
@@ -180,7 +180,7 @@ FLAIL_DATA = {
 }
 
 for weapon in FLAIL_DATA:
-    weapon["Group"] = "Flail"
+    FLAIL_DATA[weapon]["Group"] = "Flail"
 
 POLEARM_DATA = {
     "Halberd": {
@@ -218,8 +218,8 @@ POLEARM_DATA = {
 }
 
 for weapon in POLEARM_DATA:
-    weapon["Group"] = "Polearm"
-    weapon["Two-Handed"] = True
+    POLEARM_DATA[weapon]["Group"] = "Polearm"
+    POLEARM_DATA[weapon]["Two-Handed"] = True
 
 TWO_HANDED_DATA = {
     "Bastard Sword": {
@@ -265,8 +265,8 @@ TWO_HANDED_DATA = {
 }
 
 for weapon in TWO_HANDED_DATA:
-    weapon["Group"] = "Two-Handed"
-    weapon["Two-Handed"] = True
+    TWO_HANDED_DATA[weapon]["Group"] = "Two-Handed"
+    TWO_HANDED_DATA[weapon]["Two-Handed"] = True
 
 
 BLACKPOWDER_DATA = {
@@ -303,8 +303,8 @@ BLACKPOWDER_DATA = {
 }
 
 for weapon in BLACKPOWDER_DATA:
-    weapon["Group"] = "Blackpowder"
-    weapon["Qualities"].extend(["Blackpowder", "Damaging"])
+    BLACKPOWDER_DATA[weapon]["Group"] = "Blackpowder"
+    BLACKPOWDER_DATA[weapon]["Qualities"].extend(["Blackpowder", "Damaging"])
 
 BOW_DATA = {
     "Bow": {
@@ -332,8 +332,8 @@ BOW_DATA = {
 }
 
 for weapon in BOW_DATA:
-    weapon["Group"] = "Bow"
-    weapon["Two-Handed"] = True
+    BOW_DATA[weapon]["Group"] = "Bow"
+    BOW_DATA[weapon]["Two-Handed"] = True
 
 CROSSBOW_DATA = {
     "Crossbow": {
@@ -365,7 +365,7 @@ CROSSBOW_DATA = {
 }
 
 for weapon in CROSSBOW_DATA:
-    weapon["Group"] = "Crossbow"
+    CROSSBOW_DATA[weapon]["Group"] = "Crossbow"
 
 ENGINEERING_DATA = {
     "Repeater Handgun": {
@@ -400,8 +400,8 @@ ENGINEERING_DATA = {
 }
 
 for weapon in ENGINEERING_DATA:
-    weapon["Group"] = "Engineering"
-    weapon["Qualities"].extend(["Blackpowder", "Damaging"])
+    ENGINEERING_DATA[weapon]["Group"] = "Engineering"
+    ENGINEERING_DATA[weapon]["Qualities"].extend(["Blackpowder", "Damaging"])
 
 ENTANGLING_DATA = {
     "Bolas": {
@@ -430,7 +430,7 @@ ENTANGLING_DATA = {
 }
 
 for weapon in ENTANGLING_DATA:
-    weapon["Group"] = "Entangling"
+    ENTANGLING_DATA[weapon]["Group"] = "Entangling"
 
 EXPLOSIVES_DATA = {
     "Bomb": {
@@ -452,8 +452,8 @@ EXPLOSIVES_DATA = {
 }
 
 for weapon in EXPLOSIVES_DATA:
-    weapon["Group"] = "Explosives"
-    weapon["Qualities"].extend(["Blackpowder", "Damaging"])
+    EXPLOSIVES_DATA[weapon]["Group"] = "Explosives"
+    EXPLOSIVES_DATA[weapon]["Qualities"].extend(["Blackpowder", "Damaging"])
 
 SLING_DATA = {
     "Sling": {
@@ -474,7 +474,7 @@ SLING_DATA = {
 }
 
 for weapon in SLING_DATA:
-    weapon["Group"] = "Sling"
+    SLING_DATA[weapon]["Group"] = "Sling"
 
 THROWING_DATA = {
     "Javelin": {
@@ -510,7 +510,7 @@ THROWING_DATA = {
 }
 
 for weapon in THROWING_DATA:
-    weapon["Group"] = "Throwing"
+    THROWING_DATA[weapon]["Group"] = "Throwing"
 
 BLACKPOWDER_AMMO_DATA = {
     "Bullet and Powder (12)": {
@@ -535,7 +535,7 @@ BLACKPOWDER_AMMO_DATA = {
 }
 
 for weapon in BLACKPOWDER_AMMO_DATA:
-    weapon["Group"] = "Blackpowder and Engineering"
+    BLACKPOWDER_AMMO_DATA[weapon]["Group"] = "Blackpowder and Engineering"
 
 BOW_AMMO_DATA = {
     "Arrow (12)": {
@@ -554,7 +554,7 @@ BOW_AMMO_DATA = {
 }
 
 for weapon in BOW_AMMO_DATA:
-    weapon["Group"] = "Bow"
+    BOW_AMMO_DATA[weapon]["Group"] = "Bow"
 
 CROSSBOW_AMMO_DATA = {
     "Bolt (12)": {
@@ -584,7 +584,7 @@ SLING_AMMO_DATA = {
 }
 
 for weapon in SLING_AMMO_DATA:
-    weapon["Group"] = "Sling"
+    SLING_AMMO_DATA[weapon]["Group"] = "Sling"
 
 MELEE_WEAPONS_DATA = (
     BASIC_DATA
