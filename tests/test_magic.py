@@ -3,7 +3,7 @@ import pytest
 from wfrp.data.magic.aqshy import LORE_FIRE
 from wfrp.data.magic.azyr import LORE_BEASTS
 from wfrp.data.magic.chamon import LORE_METAL
-from wfrp.data.magic.ghar import LORE_HEAVENS
+from wfrp.data.magic.ghur import LORE_HEAVENS
 from wfrp.data.magic.ghyran import LORE_LIFE
 from wfrp.data.magic.hysh import LORE_LIGHT
 from wfrp.data.magic.shyish import LORE_DEATH

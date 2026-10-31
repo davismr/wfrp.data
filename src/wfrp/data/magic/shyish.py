@@ -54,8 +54,8 @@ LORE_DEATH = {
         "duration": "Willpower Bonus Rounds",
         "description": (
             "You conjure a magical scythe. It acts like a Magical Halberd with a Damage"
-            " of SB + WPB + 4. Undead enemies do not receive Advantage when Engaged"
-            " with you."
+            " of SB + WPB + 4. Undead enemies do not gain Momentum when Engaged with"
+            " you."
         ),
     },
     "Soul Vortex": {

@@ -533,7 +533,7 @@ WARRIORS_CLASS = {
                 "Reversal",
             ],
             "trappings": [
-                "Great Weapon (Dwarf Greataxe)",
+                "Great Weapon (Greataxe)",
             ],
         },
         "Dragon Slayer": {
@@ -626,7 +626,6 @@ WARRIORS_CLASS = {
             "trappings": [
                 "Breastplate",
                 "Helmet",
-                "Weapon (Any)",
             ],
         },
         "Sergeant": {

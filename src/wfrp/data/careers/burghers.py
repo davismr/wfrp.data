@@ -42,7 +42,7 @@ BURGHERS_CLASS = {
             "skills": [
                 "Cool",
                 "Dodge",
-                "Gamble",
+                "Entertain (Speeches)",
                 "Intuition",
                 "Leadership",
                 "Melee (Brawling)",
@@ -556,7 +556,7 @@ BURGHERS_CLASS = {
                 "Very Resilient",
             ],
             "trappings": [
-                "Crossbow with 10 Bolts or Spear",
+                "Crossbow with 10 Bolts",
                 "Feinkopf Lantern",
                 "Leather Jack",
             ],

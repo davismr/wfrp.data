@@ -60,7 +60,7 @@ ARCANE_MAGIC = {
             (
                 "Choose a target within 20 + Willpower Bonus yards and make a"
                 " Challenging (+0 SL) Ballistic Skill Test. The target, and any"
-                " creature within Initiative Bonus yards of them, may oppose your"
+                " creature within Willpower Bonus yards of them, may oppose your"
                 " result with a Dodge Test. Those who fail to beat your result are"
                 " struck by this spell."
             ),
@@ -95,6 +95,7 @@ ARCANE_MAGIC = {
                 " area fills with smoke, blocking line of sight and causing Suffocation"
                 " (page 169) for Willpower Bonus Rounds."
             ),
+            "The caster is immune to their own Breath.",
         ],
     },
     "Bridge": {
@@ -117,9 +118,12 @@ ARCANE_MAGIC = {
             "You channel a twisting spur of rupturing magic into your target. This is a"
             " Damage +4 magic missile. If Chain Attack deals more Wounds than the"
             " target’s Toughness Bonus, it leaps to the nearest other target within"
-            " Willpower Bonus yards of the previous target, inflicting –1 Damage each"
-            " time. It may leap a maximum number of times equal to your Willpower"
-            " Bonus. For every +2 SL achieved, it may chain to an additional target."
+            " Willpower Bonus yards of the previous target, inflicting –1 Damage. If"
+            " this attack deals more Wounds than the second target’s Toughness Bonus,"
+            " it may leap to another target within Willpower Bonus yards of the second"
+            " target, further reducing the Damage dealt by 1. It may leap in this"
+            " manner a maximum number of times equal to your Willpower Bonus, plus an"
+            " additional leap for every +2 SL achieved."
         ),
     },
     "Corrosive Blood": {
@@ -193,13 +197,14 @@ ARCANE_MAGIC = {
         ),
     },
     "Fearsome": {
-        "CN": 3,
+        "CN": 2,
         "range": "You",
         "target": "You",
         "duration": "Willpower Bonus Rounds",
         "description": (
             "Shrouding yourself in magic, you become fearsome and intimidating. Gain"
-            " Fear 1. For every +3 SL, you may increase your Fear value by 1."
+            " Fear (1). For every +3 SL, you may increase your Fear value by 1. See"
+            " page 183 for Fear rules."
         ),
     },
     "Flight": {
@@ -262,7 +267,7 @@ ARCANE_MAGIC = {
             "All targets around you are pushed back your Willpower Bonus in yards, take"
             " 1d10 Damage ignoring Armour Points, and gain the Prone Condition. If they"
             " collide into a creature the same Size or smaller, that creature gains the"
-            " Prone Condition (but takes no Damage). For every +2 SL, you may push"
+            " Prone Condition but takes no Damage. For every +2 SL, you may push"
             " creatures back another Willpower Bonus in yards."
         ),
     },

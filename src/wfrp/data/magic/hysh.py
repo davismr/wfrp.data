@@ -45,9 +45,9 @@ LORE_LIGHT = {
             " Realm of Chaos and the material world. If the target’s Toughness is"
             " higher than your Intelligence but less than double, halve their maximum"
             " Wounds for the rest of the encounter. If lower, you banish them with a"
-            " blinding white light Everyone looking at a banished daemon from Willpower"
-            " yards away receives 3 Blinded Conditions, unless they possess the Arcane"
-            " Magic (Light) Talent."
+            " blinding white light. Everyone looking at a banished daemon from"
+            " Willpower yards away receives 3 Blinded Conditions, unless they possess"
+            " the Arcane Magic (Light) Talent."
         ),
     },
     "Healing Light": {

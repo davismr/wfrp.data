@@ -58,7 +58,7 @@ BASIC_SKILL_DATA = {
             "The ability to ascend steep or vertical surfaces, like a perilous"
             " mountainside or the rain-slick wall of a tumbledown townhouse. Climbing"
             " can sometimes be used in combat when facing especially monstrous foes —"
-            " see page 162 for combat movement."
+            " see page 163 for combat movement."
         ),
     },
     "Consume Alcohol": {
@@ -280,7 +280,7 @@ ADVANCED_SKILL_DATA = {
             "You have been trained to deal with injuries and diseases. A successful"
             " Heal Test allows you to diagnose illness, treat a disease, heal wounds or"
             " staunch a Bleeding Condition. Full rules for illness, injury, and"
-            " treatments can be found on page 172."
+            " treatments can be found on pages 170, 172, and 182."
         ),
     },
     "Language": {
@@ -460,7 +460,7 @@ ADVANCED_SKILL_DATA = {
             "Tanner",
         ],
         "description": (
-            "Your ability to practice a trade, to create something or provide a"
+            "Your ability to practise a trade, to create something or provide a"
             " service, as well as your knowledge of the relevant lore surrounding your"
             " trade."
         ),

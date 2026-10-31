@@ -411,10 +411,10 @@ PEASANTS_CLASS = {
             "trappings": [
                 "Charcoal Stick",
                 "Crude Map",
-                "Great Weapon (Two-handed Pick)",
                 "Hand Weapon (Pick)",
                 "Pan",
                 "Spade",
+                "Two-handed Pick",
             ],
         },
         "Miner": {

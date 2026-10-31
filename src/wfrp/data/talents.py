@@ -26,11 +26,12 @@ TALENT_DATA = {
     },
     "Aethyric Attunement": {
         "description": (
-            "Your experience, talent, or training lets you accumulate magical energy"
+            "Your experience, talent, or training lets you manipulate magical energy"
             " with a reduced risk of miscasts. If you would roll on the Minor Miscast"
-            " Table, you may roll twice and choose whichever result you prefer. You may"
-            " purchase this Talent a second time to gain the same benefit when rolling"
-            " on the Major Miscast Table."
+            " Table, you may roll twice and choose whichever result you prefer provided"
+            " you succeeded on your Casting or Channelling Test. You may purchase this"
+            " Talent a second time to gain the same benefit when rolling on the Major"
+            " Miscast Table."
         ),
     },
     "Alley Cat": {
@@ -291,10 +292,9 @@ TALENT_DATA = {
     },
     "Commanding Presence": {
         "description": (
-            "Your presence inspires awe and admiration. In the absence of recognised"
-            " authority, most people naturally look to you for leadership in a crisis"
-            " and follow any reasonable orders you give. In addition, you gain"
-            " Advantage on Leadership Tests."
+            "Your indomitable presence can turn the tide of battle. When you"
+            " successfully use Leadership in combat (page 169), you can choose to"
+            " either use your rolled SL, or the number rolled on your units die."
         ),
     },
     "Concoct": {
@@ -441,10 +441,10 @@ TALENT_DATA = {
     "Dual Wielder": {
         "description": (
             "You have a knack for fighting with a weapon in each hand. When fighting"
-            " with two weapons (see page 167), you do not have to lose Momentum in"
-            " order to make a free attack with a second weapon. Additionally, when"
-            " fighting with two weapons, Daggers, Knives, and similar weapons you wield"
-            " gain the Parry Quality."
+            " with two weapons (see page 167), you do not have to spend Momentum in"
+            " order to make a free attack with a second weapon, though you must still"
+            " have Momentum to do so. Additionally, when fighting with two weapons,"
+            " Daggers, Knives, and similar weapons you wield gain the Parry Quality."
         ),
     },
     "Embezzle": {
@@ -484,10 +484,9 @@ TALENT_DATA = {
     },
     "Fast Hands": {
         "description": (
-            "You can move your hands with surprising dexterity. You can use Sleight of"
-            " Hand to entertain people by making small objects vanish or appear. You"
-            " gain Advantage on Sleight of Hand Tests, as well as Melee (Brawling)"
-            " Tests made to touch an opponent, such as those required by some spells."
+            "You can move your hands with surprising dexterity. You gain Advantage on"
+            " Sleight of Hand Tests, as well as Melee (Brawling) Tests made to touch an"
+            " opponent, such as those required by some spells."
         ),
     },
     "Fast Shot": {
@@ -680,17 +679,20 @@ TALENT_DATA = {
     },
     "Inspiring": {
         "description": (
-            "Your rousing words and pleas can turn the tide of battle. You have"
-            " Advantage when you make Leadership Tests in combat."
+            "Your rousing words inspire awe and admiration. In the absence of"
+            " recognised authority, most people naturally look to you for leadership in"
+            " a crisis and follow any reasonable orders you give. Additionally, you"
+            " gain Advantage on Leadership Tests."
         ),
     },
     "Instinctive Diction": {
         "description": (
             "You instinctively understand Magick and are capable of articulating"
             " complex phrases rapidly and without error. If you are required to roll on"
-            " the Minor Miscast Table, you may reduce the result by 20. If the final"
-            " result is less than 01, then no Miscast occurs. If you generate a Major"
-            " Miscast this Talent has no effect."
+            " the Minor Miscast Table, you may reduce the result by 20, provided you"
+            " succeeded on your Casting or Channelling Test. If the final result is"
+            " less than 01, then no Miscast occurs. If you generate a Major Miscast"
+            " this Talent has no effect."
         ),
     },
     "Invoke": {
@@ -839,7 +841,7 @@ TALENT_DATA = {
     "Menacing": {
         "description": (
             "You have an imposing presence, and most people know to steer clear of you."
-            " You gain Advantage on Intimidation Tests, and most sensible thieves,"
+            " You gain Advantage on Intimidate Tests, and most sensible thieves,"
             " bandits, and pickpockets will choose another target as long as one is"
             " available."
         ),
@@ -884,9 +886,9 @@ TALENT_DATA = {
     "Nose for Trouble": {
         "description": (
             "You are used to getting into, and preferably out of, trouble. You gain"
-            " Advantage on Intuition Tests, and can usually tell where in a town or"
-            " village you can find the opportunity to gamble, fight, or get stinking"
-            " drunk."
+            " Advantage on Intuition Tests related to potential danger, and can usually"
+            " tell where in a town or village you can find the opportunity to gamble,"
+            " fight, or get stinking drunk."
         ),
     },
     "Numismatics": {
@@ -1041,8 +1043,9 @@ TALENT_DATA = {
     "Riposte": {
         "description": (
             "Conforming to ‘the best defence is offence’, you respond to an incoming"
-            " attack with a counterstrike of your own. If you win an Opposed Test when"
-            " defending in melee combat, you cause Damage as if you were the attacker."
+            " attack with a counterstrike of your own. Once per Round, if you win an"
+            " Opposed Test when defending in melee combat, you cause Damage as if you"
+            " were the attacker."
         ),
     },
     "River Guide": {
@@ -1220,7 +1223,8 @@ TALENT_DATA = {
     "Sprinter": {
         "description": (
             "You are a swift runner with a good level of physical fitness. You gain"
-            " Advantage on Athletics Tests to run and jump."
+            " Advantage on Athletics Tests to run. While on foot, you suffer no"
+            " penalties for pushing or weaving your way through dense crowds."
         ),
     },
     "Step Aside": {
@@ -1281,9 +1285,8 @@ TALENT_DATA = {
     "Strike to Stun": {
         "description": (
             "You know how to use your weapon to subdue, not kill. You count all"
-            " Improvised Weapons as having the Pummel Quality. When using a Pummel"
-            " weapon, ignore the Called Shot penalty when going for a Silent Takedown"
-            " (see page 135)."
+            " Improvised Weapons as having the Pummel Quality. Gain Advantage on Silent"
+            " Takedowns (see page 135)."
         ),
     },
     "Strong Back": {
@@ -1297,10 +1300,9 @@ TALENT_DATA = {
     },
     "Strong Legs": {
         "description": (
-            "You have strong legs able to carry you great distances when you jump. When"
-            " you successfully use the Athletics Skill to sprint or leap, you can"
-            " choose to either use your rolled SL, or the number rolled on your units"
-            " die."
+            "You have strong legs able to carry you great distances when you jump. You"
+            " gain Advantage on Athletics Test to jump. Deliberate falls have effective"
+            " fall distance reduced by 1 yard."
         ),
     },
     "Strong-minded": {
@@ -1427,7 +1429,7 @@ TALENT_DATA = {
             " the end. All allies you influence with Leadership during battle (see page"
             " 169) may use your Leadership rather than their Cool to resist Fear until"
             " the end of the battle. The effect ends if you die, or while you are"
-            " subject to Broken, Unconscious, or Fear Conditions."
+            " subject to Broken or Unconscious Conditions or Fear."
         ),
     },
     "Warrior Born": {
@@ -1477,7 +1479,7 @@ TALENT_DATA = {
                 "You have learned magic through trial and error. Gain one Spell of your"
                 " choice from any Colour Lore or the Lore of Witchcraft, even if you"
                 " lack the appropriate Arcane Magic Talent. Further, treat that Spell’s"
-                " Channelling Skill and Language (Magick) Skill as a Basic Skills. You"
+                " Channelling Skill and Language (Magick) Skill as a Basic Skill. You"
                 " can memorise an additional such Spell, and treat its Channelling and"
                 " Language (Magick) Skills as Basic, for 200 XP; further Spells cost"
                 " 100 XP more each time."

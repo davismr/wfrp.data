@@ -57,7 +57,7 @@ RANGERS_CLASS = {
             ],
             "trappings": [
                 "2 Bolas or Crossbow with 10 Bolts or Lasso",
-                "Leather Skullcap",
+                "Leather Coif",
                 "Manacles",
                 "Net",
                 "Warrant Papers",
@@ -342,7 +342,7 @@ RANGERS_CLASS = {
                 "Hatred (Heretics)",
             ],
             "trappings": [
-                "Great Weapon (Military Flail)",
+                "Military Flail",
                 "Religious Symbol",
             ],
         },

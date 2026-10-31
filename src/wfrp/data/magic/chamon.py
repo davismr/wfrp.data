@@ -34,7 +34,7 @@ LORE_METAL = {
         "duration": "Willpower Bonus Rounds",
         "description": [
             (
-                "Calling on the Golden Wind, you alter the density of your target’s"
+                "Calling on the Golden Wind, you alter the density of your targets’"
                 " belongings, raising or lowering their weight. For the duration of the"
                 " Spell, choose one effect for everyone within the area of effect:"
             ),

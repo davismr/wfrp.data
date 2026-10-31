@@ -79,9 +79,9 @@ LORE_NECROMANCY = {
             " bodies (as Zombies, see page 340) or skeletons (as Skeletons, see page"
             " 339) within range. They start with the Prone Condition. The summoned"
             " undead are entirely under your control and can perform simple orders as"
-            " you command. If you die or gain an Unconscious Condition, the Spell comes"
-            " to an end and the reanimated corpses fall dead again. For each +2 SL, you"
-            " may reanimate an extra WPB + SL Skeletons or Zombies."
+            " you command. If you die or gain the Unconscious Condition, the Spell"
+            " comes to an end and the reanimated corpses fall dead again. For each +2"
+            " SL, you may reanimate an extra WPB + SL Skeletons or Zombies."
         ),
     },
     "Screaming Skull": {

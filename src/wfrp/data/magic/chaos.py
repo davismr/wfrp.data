@@ -75,7 +75,6 @@ LORE_SLAANESH = {
             "In response to your invocation, unearthly visions of beguiling and"
             " fearsome creatures fill the area of effect, giving you and all allies the"
             " Distracting Creature Trait (see page 358) for the duration of the Spell."
-            " Targets do not distract one another."
         ),
     },
 }
@@ -118,10 +117,7 @@ LORE_TZEENTCH = {
         "description": (
             "You channel fine strands of traitorous thoughts into your targets’ minds,"
             " twisting their motivations and fanning fires of discontent. Targets gain"
-            " Animosity (Allies). Further, unless immune to that Psychology, they"
-            " cannot transfer Advantage to their allies and, if they score a Critical"
-            " when attacking, they must pass a Hard (-2 SL) Cool Test or target their"
-            " nearest ally."
+            " Hatred (Friends and Allies)."
         ),
     },
 }

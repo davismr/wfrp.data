@@ -33,10 +33,10 @@ LORE_FIRE = {
         "duration": "Willpower Bonus Rounds",
         "description": (
             "You channel Aqshy into a majestic crown of inspiring fire about your brow."
-            " You gain +1 War Leader Talent (see page 128) and the Fear Trait (see page"
-            " 358). For every +2 SL, you may increase your Fear value by 1 or take War"
-            " Leader again. Furthermore, gain a +1 SL bonus on all Channelling and"
-            " Casting Tests using Aqshy."
+            " You gain the War Leader Talent (see page 128) and the Fear (2) Trait (see"
+            " page 358). For every +2 SL, you may increase your Fear value by 1."
+            " Furthermore, gain a +1 SL bonus on all Casting and Channelling Tests"
+            " using Aqshy."
         ),
     },
     "Firewall": {
@@ -66,7 +66,7 @@ LORE_FIRE = {
     "Flaming Sword of Rhuin": {
         "CN": 8,
         "range": "Willpower yards",
-        "target": "1 sword (Hand Weapon)",
+        "target": "1 sword",
         "duration": "Willpower Bonus Rounds",
         "description": (
             "You wreathe a sword in magical flames. The weapon has Damage SB + 6 and"

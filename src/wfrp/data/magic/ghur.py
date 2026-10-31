@@ -76,7 +76,7 @@ LORE_HEAVENS = {
             (
                 "You call down a murder of crows or similar local birds to assail your"
                 " foes. The flock ferociously attacks everyone in the Area of Effect"
-                " who lacks Arcane Magic (Beasts) , inflicting a Damage 7 hit to the"
+                " who lacks Arcane Magic (Beasts), inflicting a Damage 7 hit to the"
                 " head at the end of each Round. The birds also cause them to suffer 1"
                 " Blinded Condition while within the area as they peck at their eyes."
             ),
